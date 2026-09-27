@@ -13,9 +13,9 @@ def create_review(
 
     data_dic = Review.model_validate(review)
 
-    session.add(data_dic) # Database me insert kr diya
-    session.commit() # Save into Database
-    session.refresh(data_dic) # 
+    session.add(data_dic) # Session mein object add karta hai Yani Database me insert krta hay
+    session.commit() # Changes database mein save karta hai
+    session.refresh(data_dic) # Database se latest values object mein load karta hai
 
     return data_dic
 
