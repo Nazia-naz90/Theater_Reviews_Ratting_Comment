@@ -15,9 +15,9 @@ If your virtual environment (`.venv`) is already created, activate it using the 
 ```bash
 .venv\Scripts\activate
 
-
 # Run Command
 uv run uvicorn main:app --reload
+
 
 
 https://sqlmodel.tiangolo.com/install/?h=install

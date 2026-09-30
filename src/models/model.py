@@ -1,6 +1,6 @@
-# model.py
+# src\models\model.py
 
-from sqlmodel import Field, SQLModel, create_engine
+from sqlmodel import Field, SQLModel
 from typing import Optional
 from datetime import datetime, timezone
 

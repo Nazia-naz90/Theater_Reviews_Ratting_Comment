@@ -1,7 +1,7 @@
 # engine.py
 
 from sqlmodel import create_engine, SQLModel , Session
-import model
+import src.models.model as model
 
 # Database ko create krnay ka engine
 database_url = "sqlite:///database.db"
